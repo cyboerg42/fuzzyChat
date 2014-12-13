@@ -16,7 +16,7 @@ Module Main
         ip = Input()
         OutN("Port : ")
         port = Input()
-        Dim c = New Thread(Sub() Client(port, ip))
+        Dim c = New Thread(Sub() Client(port, ip, "TTT"))
         c.Start()
     End Sub
 End Module
